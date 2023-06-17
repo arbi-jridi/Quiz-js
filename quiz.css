@@ -1,0 +1,88 @@
+body {
+  background-image: linear-gradient(45deg, red, rgb(145, 145, 236));
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  background-color: azure;
+  width: 800px;
+  height: 500px;
+  border-radius: 20px;
+  position: relative;
+}
+
+.game {
+  display: block;
+}
+
+.submit {
+  color: blue;
+  height: 50px;
+  width: 100%;
+  position: absolute;
+  bottom: 0px;
+  border-radius: 0px 0px 20px 20px;
+  cursor: pointer;
+  border: solid gold 1px;
+  font-size: 20px;
+}
+
+.answers {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  font-size: 25px;
+  margin: 10px;
+}
+
+.question {
+  color: fuchsia;
+  text-align: left;
+  margin-left: 10px;
+  margin-bottom: 70px;
+}
+
+.result {
+  display: none;
+  justify-content: center;
+  gap: 25 px;
+  flex-direction: column;
+}
+
+.replay {
+  color: blue;
+  height: 50px;
+  width: 100%;
+  position: absolute;
+  bottom: 0px;
+  border-radius: 0px 0px 20px 20px;
+  cursor: pointer;
+  border: solid gold 1px;
+  font-size: 20px;
+}
+
+.result h1 {
+  text-align: center;
+  color: blue;
+  margin-left: 300px;
+  margin-bottom: 80px;
+}
+
+.correct {
+  text-align: center;
+  color: green;
+  margin-left: 300px;
+}
+
+.wrong {
+  color: red;
+  margin-left: 300px;
+}
+
+.score {
+  color: gold;
+  margin-left: 300px;
+}
